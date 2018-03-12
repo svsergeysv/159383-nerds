@@ -17,7 +17,9 @@
           <li><a href="#"></a>Контакты</li>
         </ul>
         <ul class="user-navigation">
-          <li class="basket">Корзина</li>
+          <li class="basket">
+            <a class="basket-link" href="basket.html">Корзина</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -27,20 +29,20 @@
         <div class="slide1">
           <h2>Долго, дорого, скрупулезно.</h2>
           <p>Математически выверенный дизайн для вашего сайта или мобильного прилодения.</p>
-          <a class="button" href="#">Узнать больше</a>
+          <a class="button button-slider button-slider-1" href="#">Узнать больше</a>
           <img src="./img/slide1.png" width="698" height="413" alt="мобильные устройства">
         </div>
         <div class="slide2">
           <h2>Любим математику как никто другой</h2>
           <p>Никакого креатива, только математические формулы для рассчета идеальных пропорций</p>
-          <a class="button" href="#">Узнать больше</a>
+          <a class="button button-slider button-slider-2" href="#">Узнать больше</a>
           <img src="./img/slide2.png" width="698" height="413" alt="десктопные приложения">
         </div>
         <div class="slide3">
           <h2>Только ночь, только хардкор</h2>
           <p>Работать днем, как все? Мы против этого.
              Ближе к полуночи работа только начинается</p>
-          <a class="button" href="#">Узнать больше</a>
+          <a class="button button-slider button-slider-3" href="#">Узнать больше</a>
           <img src="./img/slide3.png" width="698" height="413" alt="планшеты">
         </div>
       </div>
@@ -51,19 +53,19 @@
             <img src="./img/illustration-1.png" width="300" height="146" alt="веб-сайты">
             <h3>Веб-сайты</h3>
             <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <a class="button button-red">Заказать</a>
+            <a class="button button-services button-services-red">Заказать</a>
           </li>
           <li class="services-item">
             <img src="./img/illustration-2.png" width="300" height="146" alt="приложения">
             <h3>Приложения</h3>
             <p>Покорите топ-10 приложений в Appstore и Google Play</p>
-            <a class="button button-green">Заказать</a>
+            <a class="button button-services button-services-green">Заказать</a>
           </li>
           <li class="services-item">
             <img src="./img/illustration-3.png" width="300" height="146" alt="презентации">
             <h3>Презентации</h3>
             <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-            <a class="button button-yellow">Заказать</a>
+            <a class="button button-services button-services-yellow">Заказать</a>
           </li>
         </ul>
       </section>
@@ -116,7 +118,7 @@
         <p>191186, Санкт-Петербург,<br>
            ул. Б. Конюшенная, д. 19/8</p>
         <p>тел. +7(812)275-75-75</p>
-        <a class="button" href="#">Напишите нам</a>
+        <a class="button" href="write.html">Напишите нам</a>
       </section>
       <div class="footer-social">
         <b>Давайте дружить, это выгодно!</b>
@@ -130,8 +132,22 @@
     </footer>
     <section class="modal modal-mail">
       <h2>Напишите нам</h2>
-      <!-- Здесь будет форма -->
-      <span class="modal-close">x</span>
+      <form class="modal-mail-form" action="https://echo.htmlacademy.ru" method="POST">
+        <p>
+          <label for="user-name">Ваше имя:</label>
+          <input type="text" id="user-name" placeholder="Имя Фамилия" name="name" value="">
+        </p>
+        <p>
+          <label for="user-mail">Ваш e-mail:</label>
+          <input type="text" id="user-mail" placeholder="email@example.com" name="mail" value="">
+        </p>
+        <p>
+          <label for="user-text">Текст письма:</label>
+          <textarea id="user-text" placeholder="В свободной форме" name="text-mail" value="">
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
   </body>
 </html>
