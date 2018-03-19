@@ -1,0 +1,180 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;
+}
+
+
+.button:hover {
+  background-color: #e74246;
+
+}
+
+.button:focus,
+.button:active {
+  background-color: #d7373b;
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.button-services-green  {
+  background-color: #00ca74;
+  color: rgb(255, 255, 255);
+}
+
+.button-services-green:hover  {
+  background-color: #00bc6c;
+  color: rgb(255, 255, 255);
+}
+
+.button-services-green:active  {
+  background-color: #00aa62;
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.button-services-yellow  {
+  background-color: #efc84a;
+  color: rgb(255, 255, 255);
+}
+
+.button-services-yellow:hover  {
+  background-color: #eab534;
+  color: rgb(255, 255, 255);
+}
+
+.button-services-yellow:active  {
+  background-color: #e5a722;
+  color: rgb(255, 255, 255, 0.3);
+}
+
+
+.main-header {
+  background-color: rgb(238,238,239);
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+
+}
+
+.main-header-logo:hover{
+  opacity: 0.8;
+}
+
+.main-header-logo:active{
+  opacity: 0.3;
+}
+
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover,
+.user-navigation a:hover {
+  color: #fb565a;
+} 
+
+.site-navigation a:active,
+.user-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation a:focus,
+.user-navigation a:focus {
+  border-bottom: 2px solid #fb565a;
+}
+
+.slider h2 {
+  font-size: 55px;
+  line-height: 55px;
+}
+
+
+.services h3 {
+  font-size: 24px;
+  line-height: 30px;
+} 
+
+.services-list {
+  list-style: none;
+}
+
+.about-us b {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.main-table th {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.about-us-list {
+  list-style: none;
+}
+
+,
+.partners-catalog {
+  list-style: none;
+}
+
+.partners-item {
+  opacity: 0.2;
+}
+
+.partners-item:hover {
+  opacity: 1;
+}
+
+.partners-item:active {
+  opacity: 0.1;
+}
+
+.footer-social-item {
+  list-style: none;
+}
+
+.modal-mail {
+  border: solid 2px black;
+
+}
+.modal h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.modal-mail-form input[type="text"],
+.modal-mail-form input[type="password"],
+.modal-mail-form textarea {
+  border: 2px solid #000000;
+}
+
+

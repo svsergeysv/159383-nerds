@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -22,9 +25,6 @@
           </li>
         </ul>
       </nav>
-    </header>
-    <main class="container">
-      <h1 class="visually-hidden">Сайт веб-студии Нёрдс</h1>
       <div class="slider">
         <input type="radio" id="btn-1" class="btn-1" name="toggle" checked>
         <input type="radio" id="btn-2" class="btn-2" name="toggle">
@@ -33,11 +33,12 @@
           <label for="btn-1"></label>
           <label for="btn-2"></label>
           <label for="btn-3"></label>
-        </div>        
+        </div>  
+        <h1 class="visually-hidden">Сайт веб-студии Нёрдс</h1>      
         <div class="slides">
           <div class="slide">
             <h2>Долго, дорого, скрупулезно.</h2>
-            <p>Математически выверенный дизайн для вашего сайта или мобильного прилодения.</p>
+            <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
             <a class="button button-slider button-slider-1" href="#">Узнать больше</a>
             <img src="./img/slide1.png" width="698" height="413" alt="мобильные устройства">
           </div>
@@ -56,6 +57,8 @@
           </div>
         </div>
       </div>
+    </header>
+    <main class="container">
       <section class="services">
         <h2 class="visually-hidden">Список услуг</h2>
         <ul class="services-list">
@@ -79,6 +82,7 @@
           </li>
         </ul>
       </section>
+    <div class="index-columns">
       <section class="about-us">
         <h2 class="visually-hidden">О нас</h2>
         <b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
@@ -96,7 +100,7 @@
         <img src="./img/nerds-illustration.png" width="360" height="208" alt="цветной логотип веб=студии">
         <table>
           <caption>С 2004 года любим тоность во всем:</caption>
-          <tr>
+          <tr class="main-table">
             <th>146<sup>%</sup></th>
             <th>100<sup>%</sup></th>
             <th>50<sup>%</sup></th>
@@ -108,6 +112,7 @@
           </tr>
         </table>
       </section>
+    </div>
       <section class="partners">
         <h2 class="visually-hidden">Каталог проектов</h2>
         <ul class="partners-catalog">
@@ -133,7 +138,7 @@
       <div class="footer-social">
         <b>Давайте дружить, это выгодно!</b>
         <p>Скидка 10% для друзей из социальных сетей.</p>
-        <ul>
+        <ul class="footer-social-item">
           <li><a class="social-button" href="#">Вконтакте</a></li>
           <li><a class="social-button" href="#">Фейсбук</a></li>
           <li><a class="social-button" href="#">Инстаграм</a></li>
